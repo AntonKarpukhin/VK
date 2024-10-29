@@ -1,0 +1,9 @@
+.RepositoriesLayout {
+    padding: 20px 250px;
+    width: 1200px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    text-align: center;
+}

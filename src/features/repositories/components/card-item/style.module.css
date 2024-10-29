@@ -1,0 +1,133 @@
+.repositoryCard {
+    position: relative;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 16px;
+    margin: 8px 0;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    transition: transform 0.2s ease;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.repositoryCard:hover {
+    transform: translateY(-5px);
+}
+
+.repositoryHeader {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 8px;
+}
+
+.box {
+    width: 50px;
+}
+
+.ownerAvatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 12px;
+}
+
+.repositoryName {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #0366d6;
+    text-decoration: none;
+}
+
+.repositoryName:hover {
+    text-decoration: underline;
+}
+
+.repositoryDescription {
+    font-size: 0.9em;
+    color: #586069;
+    margin-bottom: 12px;
+}
+
+.repositoryDetails {
+    display: flex;
+    gap: 8px;
+    font-size: 0.9em;
+    color: #586069;
+    margin-bottom: 12px;
+}
+
+.language {
+    background-color: #f1f8ff;
+    padding: 4px 8px;
+    border-radius: 4px;
+    color: #0366d6;
+}
+
+.forks,
+.stars {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.repositoryFooter {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.deleteButton {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    background: none;
+    border: none;
+    font-size: 1.2em;
+    cursor: pointer;
+    padding: 4px;
+    transition: color 0.2s;
+}
+
+.deleteButton:hover {
+    background: #d32f2f;
+}
+
+.editButton {
+    position: absolute;
+    bottom: 8px;
+    right: 8px;
+    background: none;
+    border: none;
+    font-size: 1.2em;
+    cursor: pointer;
+    padding: 4px;
+    transition: color 0.2s;
+}
+
+.editButton:hover {
+    background: #0366d6;
+}
+
+.editDescription {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 6px;
+    margin-bottom: 10px;
+}
+
+.wrapperEditDescription {
+    display: flex;
+    gap: 8px;
+}
+
+.descriptionInput {
+    resize: none;
+    width: 200px;
+    height: 50px;
+    background: transparent;
+    color: black;
+}
